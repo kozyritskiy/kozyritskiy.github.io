@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/*   header    */
+li{
+	list-style-type: none;
+}
+.header,
+footer {
+    background-color: #4b73b5;
+    font-weight: bold;
+}
+.header__number {
+    font-size: 21px;
+    color: #ffffff;
+}
+.header__schedule {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+/*   sidebar    */
+
+.sidebar {
+    font-weight: bold;
+    color: #221f1f;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.sidebar__item:not(:first-child) {
+    color: #4b73b5;
+}
+/*   main-content    */
+
+.rates__main-title {
+    color: #221f1f;
+    font-size: 49px;
+    font-weight: bold;
+}
+.rates__title {
+    color: #212121;
+    font-size: 11px;
+    font-weight: bold;
+}
+.rates__list {
+    font-size: 18px;
+    font-weight: 300;
+    color: #221f1f;
+}
+.rates__price-tag {
+    font-size: 54px;
+    font-weight: normal;
+}
+.last-news__main-title {
+    font-size: 49px;
+    font-weight: bold;
+    color: #221f1f;
+}
+.last-news__dste {
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+}
+.last-news__news {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #221f1f;
+}
+.last-news__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #221f1f;
+}
+.pagination__item {
+    width: 100px;
+    display: inline-block;
+}
+.pagination__pages {
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+}
+.pagination__item {
+    font-size: 14px;
+    font-weight: bold;
+    color: #221f1f;
+}
+.rates__icon {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #4b73b5;
+}
+.last-news__avatar-picture {
+    border-radius: 160px;
+}
+.rates__dollar{
+	font-size: 30px;
+}
+/*   footer    */
+
+.footer__item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #d2def3;
+    border-radius: 50%;
+}
+.footer__address {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.footer__anchor {
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer__title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
