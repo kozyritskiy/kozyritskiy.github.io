@@ -1,48 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Airplanet</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
     <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container-header">
+            <div class="container clearfix">
                 <div class="header__left">
                     <a href="#" class="logo">
                         <img src="./img/logo_header.png" alt="logo_img" class="logo__img">
                     </a>
                 </div>
                 <div class="header__right">
-                    <a href="#" class="phone">8(800) 00-392-10</a>
-                    <a href="#" class="schedule">
-                        <span class="schedule__text">График работы</span>
-                        <span></span>
-                    </a>
+                    <div class="phone"> <a href="#" class="phone__link">8(800) 00-392-10</a>
+                    </div>
+                    <div class="schedule">
+                        <a href="#" class="schedule__link">
+                            <span class="schedule__text">График работы</span>
+                            <span></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </header>
         <main class="main-content">
-            <div class="container-main">
+            <div class="container clearfix">
                 <aside class="sidebar">
                     <nav class="navigator">
                         <ul class="navigator__list">
                             <li class="navigator__item">
-                                <a href="#" class="navigator__link navigator__link_color_black navigator__link_icon_main
-                                ">Главная</a>
+                                <a href="#" class="navigator__link navigator__link_active navigator__link_icon_main
+                                ">
+                                    <div class="navigator__text ">Главная</div>
+                                </a>
                             </li>
                             <li class="navigator__item">
-                                <a href="#" class="navigator__link navigator__link_icon_star
-                                navigator__link_icon">Отзывы</a>
+                                <a href="#" class="navigator__link navigator__link_icon_feed">
+                                    <div class="navigator__text">отзывы</div>
+                                </a>
                             </li>
                             <li class="navigator__item">
-                                <a href="#" class="navigator__link navigator__link_icon_team">Экипаж</a>
+                                <a href="#" class="navigator__link navigator__link_icon_team">
+                                    <div class="navigator__text">экипаж</div>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -178,46 +196,45 @@
                 </div>
             </div>
         </main>
-        <footer class="footer">
-        	<div class="container-footer">
-        		<div class="footer__copyright">
-        			<div class="copyright">
-        			Сделано с любовью и старанием на курсе в
-                    <a href="#" class="copyright__link">LoftSchool</a>
-                    <br> Автор работы: <span class="copyright__author">Козырицкий Максим</span>
-        			</div>
-        		</div>
-        		<div class="footer__logo">
-        			<a href="#" class="logo">
-                        <img src="./img/logo_header.png" alt="logo_img" class="logo__img">
-                    </a>
-        		</div>
-        		<div class="footer__social">
-        			<div class="social-title">Наши социальные сети</div>
-        			<div class="social-icons">
-        				<ul class="social-icons__list ">
-        					<li class="social-icons__item social-icons__item_hover">
-        						<a href="#" class="social-icons__link social-icons__link_icon_vk"></a>
-        					</li>
-        					<li class="social-icons__item social-icons__item_hover">
-        						<a href="#" class="social-icons__link social-icons__link_icon_fb"></a>
-        					</li>
-        					<li class="social-icons__item social-icons__item_hover">
-        						<a href="#" class="social-icons__link social-icons__link_icon_gplus"></a>
-        					</li>
-        					<li class="social-icons__item social-icons__item_hover">
-        						<a href="#" class="social-icons__link social-icons__link_icon_tw"></a>
-        					</li>
-        					<li class="social-icons__item social-icons__item_hover">
-        						<a href="#" class="social-icons__link social-icons__link_icon_mail"></a>
-        					</li>
-        					
-        				</ul>
-        			</div>
-        		</div>
-        	</div>
-        </footer>
     </div>
+    <footer class="footer">
+        <div class="container clearfix">
+            <div class="footer__copyright">
+                <div class="copyright">
+                    Сделано с любовью и старанием на курсе в
+                    <a href="#" class="copyright__link">LoftSchool</a>
+                    Автор работы: <span class="copyright__author">Козырицкий Максим</span>
+                </div>
+            </div>
+            <div class="footer__logo">
+                <a href="#" class="logo">
+                    <img src="./img/logo_header.png" alt="logo_img" class="logo__img">
+                </a>
+            </div>
+            <div class="footer__social">
+                <div class="social-title">Наши социальные сети</div>
+                <div class="social-icons">
+                    <ul class="social-icons__list ">
+                        <li class="social-icons__item">
+                            <a href="#" class="social-icons__link social-icons__link_icon_vk"></a>
+                        </li>
+                        <li class="social-icons__item">
+                            <a href="#" class="social-icons__link social-icons__link_icon_fb"></a>
+                        </li>
+                        <li class="social-icons__item">
+                            <a href="#" class="social-icons__link social-icons__link_icon_gplus"></a>
+                        </li>
+                        <li class="social-icons__item">
+                            <a href="#" class="social-icons__link social-icons__link_icon_tw"></a>
+                        </li>
+                        <li class="social-icons__item">
+                            <a href="#" class="social-icons__link social-icons__link_icon_mail"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

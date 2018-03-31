@@ -1,0 +1,32 @@
+.header{
+    background-color: #4b73b5;
+    font-weight: bold;
+	margin-bottom: 13px;
+}
+.phone__link {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+}
+.schedule__text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.header__left {
+    width: 50%;
+    float: left;
+	padding: 20px 0 20px 21px; 
+}
+.header__right {
+    width: 50%;
+    float: right;
+	padding: 19px 21px 17px 0; 
+}
+.phone {
+    text-align: right;
+}
+.schedule {
+    text-align: right;
+}
