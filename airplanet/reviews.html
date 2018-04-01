@@ -1,45 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru-RU">
 
 <head>
     <meta charset="UTF-8">
     <title>Reviews</title>
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/breadcrumbs.css">
+    <link rel="stylesheet" href="./css/reservation.css">
+    <link rel="stylesheet" href="./css/feedback.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 </head>
 <div class="wrapper">
     <header class="header">
-        <div class="container-header">
+        <div class="container clearfix">
             <div class="header__left">
                 <a href="#" class="logo">
                     <img src="./img/logo_header.png" alt="logo_img" class="logo__img">
                 </a>
             </div>
             <div class="header__right">
-                <a href="#" class="phone">8(800) 00-392-10</a>
-                <a href="#" class="schedule">
-                    <span class="schedule__text">График работы</span>
-                    <span></span>
-                </a>
+                <div class="phone"> <a href="#" class="phone__link">8(800) 00-392-10</a>
+                </div>
+                <div class="schedule">
+                    <a href="#" class="schedule__link">
+                        <span class="schedule__text">График работы</span>
+                        <span></span>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
-    <main class="main-content">
-        <div class="container-main">
+    <main class="main-content main-content_comments">
+        <div class="container clearfix">
             <aside class="sidebar">
                 <nav class="navigator">
                     <ul class="navigator__list">
                         <li class="navigator__item">
-                            <a href="#" class="navigator__link navigator__link_color_black navigator__link_icon_main
-                                ">Главная</a>
+                            <a href="#" class="navigator__link navigator__link_active navigator__link_icon_main
+                                ">
+                                <div class="navigator__text ">Главная</div>
+                            </a>
                         </li>
                         <li class="navigator__item">
-                            <a href="#" class="navigator__link navigator__link_icon_star
-                                navigator__link_icon">Отзывы</a>
+                            <a href="#" class="navigator__link navigator__link_icon_feed">
+                                <div class="navigator__text">отзывы</div>
+                            </a>
                         </li>
                         <li class="navigator__item">
-                            <a href="#" class="navigator__link navigator__link_icon_team">Экипаж</a>
+                            <a href="#" class="navigator__link navigator__link_icon_team">
+                                <div class="navigator__text">экипаж</div>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -47,64 +63,62 @@
             <div class="breadcrumbs">
                 <ul class="breadcrumbs__list">
                     <li class="breadcrumbs__item">
-                        <a href="#" class="breadcrumbs__link">Главная</a>
-                        <div class="breadcrumbs__slash">/</div>
+                        <a href="#" class="breadcrumbs__link ">Главная</a>
                     </li>
                     <li class="breadcrumbs__item">
-                        <a href="#" class="breadcrumbs__link">Отзывы</a>
-                        <div class="breadcrumbs__slash">/</div>
+                        <a href="#" class="breadcrumbs__link breadcrumbs__link_active">Отзывы</a>
                     </li>
                 </ul>
             </div>
             <div class="content">
-                <div class="last-news">
-                    <h2 class="title">Отзывы</h2>
-                    <ul class="last-news__list">
-                        <li class="last-news__item">
-                            <div class="news">
+                <div class="posts">
+                    <h2 class="title title_comments">Отзывы</h2>
+                    <ul class="posts__list">
+                        <li class="posts__item">
+                            <div class="news clearfix">
                                 <div class="news__logo">
                                     <img src="./img/planeflying.jpg" alt="news__img" class="news__img">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
                                     <h5 class="news__title">Ночные перелеты дешевле</h5>
-                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere illo, laudantium aperiam veniam, ut laborum quia! Consequatur magni culpa, nisi, vero id quidem autem.</p>
+                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis blanditiis est dolor quibusdam dolorum ea eveniet maiores sequi vitae ipsa assumenda error temporibus quae cum deserunt perferendis accusantium commodi non, corporis dicta facilis. Dolore praesentium officiis cupiditate aperiam maxime? Excepturi?. mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores.</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="last-news__item">
-                            <div class="news">
+                        <li class="posts__item">
+                            <div class="news clearfix">
                                 <div class="news__logo">
-                                    <img src="./img/planeflying.jpg" alt="news__img" class="news__img">
+                                    <img src="./img/georgia.jpg" alt="news__img" class="news__img">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
                                     <h5 class="news__title">Ночные перелеты дешевле</h5>
-                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere illo, laudantium aperiam veniam, ut laborum quia! Consequatur magni culpa, nisi, vero id quidem autem.</p>
+                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia beatae sed. Natus dolore non hic perferendis, corporis doloribus! Distinctio praesentium animi quis deserunt quasi impedit provident, laborum rem similique iure minus eius quod optio maiores aliquam, id nulla? Veniam.mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores.</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="last-news__item">
-                            <div class="news">
+                        <li class="posts__item">
+                            <div class="news clearfix">
                                 <div class="news__logo">
-                                    <img src="./img/planeflying.jpg" alt="news__img" class="news__img">
+                                    <img src="./img/boy.jpg" alt="news__img" class="news__img">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
                                     <h5 class="news__title">Ночные перелеты дешевле</h5>
-                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere illo, laudantium aperiam veniam, ut laborum quia! Consequatur magni culpa, nisi, vero id quidem autem.</p>
+                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam recusandae magnam assumenda velit tenetur maiores enim iure quasi ab perferendis dicta hic nobis eos adipisci culpa, voluptatum illum, vitae tempore nulla repudiandae mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores. mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores.</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="last-news__item">
-                            <div class="news">
+                        <li class="posts__item">
+                            <div class="news clearfix">
                                 <div class="news__logo">
-                                    <img src="./img/planeflying.jpg" alt="news__img" class="news__img">
+                                    <img src="./img/boy.jpg" alt="news__img" class="news__img">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
                                     <h5 class="news__title">Ночные перелеты дешевле</h5>
-                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere illo, laudantium aperiam veniam, ut laborum quia! Consequatur magni culpa, nisi, vero id quidem autem.</p>
+                                    <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam recusandae magnam assumenda velit tenetur maiores enim iure quasi ab perferendis dicta hic nobis eos adipisci culpa, voluptatum illum, vitae tempore nulla repudiandae mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores. mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores.</p>
                                 </div>
                             </div>
                         </li>
@@ -119,7 +133,7 @@
                         <a href="#" class="pagination__btn pagination__btn_icon_left"></a>
                         <ul class="pagination__list">
                             <li class="pagination__item">
-                                <a href="#" class="pagination__link">1</a>
+                                <a href="#" class="pagination__link pagination__link_active">1</a>
                             </li>
                             <li class="pagination__item">
                                 <a href="#" class="pagination__link">2</a>
@@ -146,85 +160,93 @@
                 </div>
             </div>
         </div>
-    </main>
-    <div class="reservation">
-        <div class="container-reservation">
-            Вопросы по бронированию билетов в нашей авиакомпании принимаются
-            <br>Для этого можно можно оставить <a href="#" class="reservation__link">заявку на сайте</a> или же по номеру
-            <br>круглосуточной поддержки <a href="#" class="reservation__phone">8 (800) 00-392-10</a>
-        </div>
-    </div>
-    <div class="feedback">
-        <div class="container-feedback">
-            <h2 class="title">Оставить отзыв</h2>
-            <form action="" class="form">
-                <p class="form__name">
-                    Ваше имя
-                    <br>
-                    <input type="text" size="40" placeholder="Максим">
-                </p>
-                <p class="form__email">
-                    Ссылка на профиль VK
-                    <br>
-                    <input type="email" size="40" placeholder="vk.com/example">
-                </p>
-                <p class="form__comments">
-                    Текст отзыва
-                    <br>
-                    <textarea name="comment" id="" cols="40" rows="10" placeholder="Мне понравилось"></textarea>
-                </p>
-                <p class="from__question">
-                    Отображать фото в отзыве?
-                    <br>
-                    <input type="radio" name="bool" value="Yes">Да
-                    <br>
-                    <input type="radio" name="bool" value="No">Нет
-                    <br>
-                </p>
-                <p class="form_submit">
-                    <input type="submit" value="Отпрвить" </p>
-            </form>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="container-footer">
-            <div class="footer__copyright">
-                <div class="copyright">
-                    Сделано с любовью и старанием на курсе в
-                    <a href="#" class="copyright__link">LoftSchool</a>
-                    <br>Автор работы: <span class="copyright__author">Козырицкий Максим</span>
-                </div>
+	</div>
+</div>
+</main>
+	<div class="reservation">
+    	<div class="container">
+			<div class="container-reservation">
+				Вопросы по бронированию билетов в нашей авиакомпании принимаются
+				<br>Для этого можно можно оставить <a href="#" class="reservation__link">заявку на сайте</a> или же по номеру
+				<br>круглосуточной поддержки <a href="#" class="reservation__phone">8 (800) 00-392-10</a>
+			</div>
+    	</div>
+	</div>
+	<div class="feedback">
+		<div class="container">
+			<div class="wrap-form">
+				<h2 class="title">Оставить отзыв</h2>
+				<form action="" class="form">
+					<p class="form__name">
+						Ваше имя
+						<br>
+						<input type="text" size="40" placeholder="Максим">
+					</p>
+					<p class="form__email">
+						Ссылка на профиль VK
+						<br>
+						<input type="email" size="40" placeholder="vk.com/example">
+					</p>
+					<p class="form__comments">
+						Текст отзыва
+						<br>
+						<textarea name="comment" id="" cols="40" rows="10" placeholder="Мне понравилось"></textarea>
+					</p>
+					<p class="from__question">
+						Отображать фото в отзыве?
+						<br>
+						<input type="radio" name="bool" value="Yes">Да
+						<br>
+						<input type="radio" name="bool" value="No">Нет
+						<br>
+					</p>
+					<p class="form_submit">
+						<input type="submit" value="Отпрвить" </p>
+				</form>
+			</div>
+    	</div>
+	</div>
+</div>
+<footer class="footer">
+    <div class="container clearfix">
+        <div class="footer__copyright">
+            <div class="copyright">
+                Сделано с любовью и старанием
+                <br>на курсе "HTML + CSS" в <a href="#" class="copyright__link">LoftSchool</a> 
+                <br>Автор работы: <span class="copyright__author">Козырицкий Максим</span> 
             </div>
-            <div class="footer__logo">
-                <a href="#" class="logo">
-                    <img src="./img/logo_header.png" alt="logo_img" class="logo__img">
-                </a>
-            </div>
-            <div class="footer__social">
+        </div>
+        <div class="footer__logo">
+            <a href="#" class="logo">
+                <img src="./img/logo_header.png" alt="logo_img" class="logo__img">
+            </a>
+        </div>
+        <div class="footer__social">
+            <div class="social-wrap">
                 <div class="social-title">Наши социальные сети</div>
                 <div class="social-icons">
                     <ul class="social-icons__list ">
-                        <li class="social-icons__item social-icons__item_hover">
+                        <li class="social-icons__item">
                             <a href="#" class="social-icons__link social-icons__link_icon_vk"></a>
                         </li>
-                        <li class="social-icons__item social-icons__item_hover">
+                        <li class="social-icons__item">
                             <a href="#" class="social-icons__link social-icons__link_icon_fb"></a>
                         </li>
-                        <li class="social-icons__item social-icons__item_hover">
+                        <li class="social-icons__item">
                             <a href="#" class="social-icons__link social-icons__link_icon_gplus"></a>
                         </li>
-                        <li class="social-icons__item social-icons__item_hover">
+                        <li class="social-icons__item">
                             <a href="#" class="social-icons__link social-icons__link_icon_tw"></a>
                         </li>
-                        <li class="social-icons__item social-icons__item_hover">
+                        <li class="social-icons__item">
                             <a href="#" class="social-icons__link social-icons__link_icon_mail"></a>
                         </li>
-
                     </ul>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </div>
 
 <body>

@@ -1,0 +1,12 @@
+.form {
+
+}
+.wrap-form {
+	border-radius: 3px;
+	background-color:  cadetblue;;
+	width: 700px;
+	margin: 0 auto;
+}
+.feedback {
+	background-color: aquamarine;
+}
