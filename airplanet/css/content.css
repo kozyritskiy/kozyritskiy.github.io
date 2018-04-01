@@ -21,9 +21,8 @@
 }
 .rates__list {
     width: 810px;
-    margin-left: -20px;
 	font-size: 0;
-	margin: a auto;
+	margin: 0 auto;
 }
 .rates__item {
 	width: 250px;
