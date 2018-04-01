@@ -160,52 +160,55 @@
                 </div>
             </div>
         </div>
-	</div>
+</div>
 </div>
 </main>
-	<div class="reservation">
-    	<div class="container">
-			<div class="container-reservation">
-				Вопросы по бронированию билетов в нашей авиакомпании принимаются
-				<br>Для этого можно можно оставить <a href="#" class="reservation__link">заявку на сайте</a> или же по номеру
-				<br>круглосуточной поддержки <a href="#" class="reservation__phone">8 (800) 00-392-10</a>
-			</div>
-    	</div>
-	</div>
-	<div class="feedback">
-		<div class="container">
-			<div class="wrap-form">
-				<h2 class="title">Оставить отзыв</h2>
-				<form action="" class="form">
-					<p class="form__name">
-						Ваше имя
-						<br>
-						<input type="text" size="40" placeholder="Максим">
-					</p>
-					<p class="form__email">
-						Ссылка на профиль VK
-						<br>
-						<input type="email" size="40" placeholder="vk.com/example">
-					</p>
-					<p class="form__comments">
-						Текст отзыва
-						<br>
-						<textarea name="comment" id="" cols="40" rows="10" placeholder="Мне понравилось"></textarea>
-					</p>
-					<p class="from__question">
-						Отображать фото в отзыве?
-						<br>
-						<input type="radio" name="bool" value="Yes">Да
-						<br>
-						<input type="radio" name="bool" value="No">Нет
-						<br>
-					</p>
-					<p class="form_submit">
-						<input type="submit" value="Отпрвить" </p>
-				</form>
-			</div>
-    	</div>
-	</div>
+<div class="reservation">
+    <div class="container">
+        <div class="container-reservation">
+            Вопросы по бронированию билетов в нашей авиакомпании принимаются
+            <br>Для этого можно можно оставить <a href="#" class="reservation__link">заявку на сайте</a> или же по номеру
+            <br>круглосуточной поддержки <a href="#" class="reservation__phone">8 (800) 00-392-10</a>
+        </div>
+    </div>
+</div>
+<div class="feedback">
+    <div class="container">
+        <div class="wrap-form">
+            <div class="form-content">
+                <h2 class="title">Оставить отзыв</h2>
+                <form action="" class="form">
+                    <fieldset class="fieldset">
+                        <div class="fieldset__info">
+                            <label class="label-name" for="">Ваше имя
+                                <input type="text" placeholder="Максим" class="fieldset__name">
+                            </label>
+                            <label class="label-vk" for="">Ссылка на профиль VK
+                                <input type="email" class="fieldset__vk" placeholder="vk.com/example">
+                            </label>
+                        </div>
+                        <label for="" class="label-text">Текст отзыва
+                            <textarea class="fieldset__text" name="comment" id="" placeholder="Мне понравилось"></textarea>
+                        </label>
+                    </fieldset>
+                    <div class="form__submit clearfix">
+                        <label for="" class="label-question">
+                            Отображать фото в отзыве?
+                            <div class="fieldset__radioset">
+                                <label for="" class="label-radio">
+                                    <input class="fieldset__radio" type="radio" name="bool" value="Yes">Да</label>
+                                <label for="" class="label-radio">
+                                    <input class="fieldset__radio" type="radio" name="bool" value="No">Нет</label>
+                            </div>
+                        </label>
+                        <button class="btn-submit">send</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 <footer class="footer">
     <div class="container clearfix">
