@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/page.css">
     <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
@@ -69,7 +71,7 @@
                     <div class="banner"></div>
                     <div class="rates">
                         <h2 class="title">Тарифы</h2>
-                        <ul class="rates__list">
+                        <ul class="rates__list clearfix">
                             <li class="rates__item">
                                 <div class="rate">
                                     <div class="rate__icons rate__icons_icon_flower
@@ -79,9 +81,19 @@
                                         Создан для вашего комфортного отдыха
                                     </p>
                                     <ul class="rate__list">
-                                        <li class="rate__item">Питание включено</li>
-                                        <li class="rate__item">Питание включено</li>
-                                        <li class="rate__item">Питание включено</li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">Питание включено</div>
+                                        </li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">
+                                                Багаж (5 кг)
+                                            </div>
+                                        </li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">
+                                                Детское кресло
+                                            </div>
+                                        </li>
                                     </ul>
                                     <div class="price"><span class="price__dollar">$</span>19</div>
                                 </div>
@@ -89,71 +101,92 @@
                             <li class="rates__item">
                                 <div class="rate">
                                     <div class="rate__icons rate__icons_icon_star"></div>
-                                    <h4 class="rate__title">Стандарт</h4>
+                                    <h4 class="rate__title">Премиум</h4>
                                     <p class="rate__description">
                                         Создан для вашего комфортного отдыха
                                     </p>
                                     <ul class="rate__list">
-                                        <li class="rate__item">Питание включено</li>
-                                        <li class="rate__item">Питание включено</li>
-                                        <li class="rate__item">Питание включено</li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">Питание включено</div>
+                                        </li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">
+                                                Багаж (5 кг)
+                                            </div>
+                                        </li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">
+                                                Детское кресло
+                                            </div>
+                                        </li>
                                     </ul>
-                                    <div class="price"><span class="price__dollar">$</span>19</div>
+                                    <div class="price"><span class="price__dollar">$</span>39</div>
                                 </div>
                             </li>
                             <li class="rates__item">
                                 <div class="rate">
                                     <div class="rate__icons rate__icons_icon_palette"></div>
-                                    <h4 class="rate__title">Стандарт</h4>
+                                    <h4 class="rate__title">Лакшери</h4>
                                     <p class="rate__description">
                                         Создан для вашего комфортного отдыха
                                     </p>
                                     <ul class="rate__list">
-                                        <li class="rate__item">Питание включено</li>
-                                        <li class="rate__item">Питание включено</li>
-                                        <li class="rate__item">Питание включено</li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">Питание включено</div>
+                                        </li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">
+                                                Багаж (5 кг)
+                                            </div>
+                                        </li>
+                                        <li class="rate__item">
+                                            <div class="rate__text">
+                                                Детское кресло
+                                            </div>
+                                        </li>
                                     </ul>
-                                    <div class="price"><span class="price__dollar">$</span>19</div>
+                                    <div class="price"><span class="price__dollar">$</span>99</div>
                                 </div>
                             </li>
+                            
                         </ul>
                     </div>
-                    <div class="last-news">
+                    <div class="posts">
                         <h2 class="title">Последние новости</h2>
-                        <ul class="last-news__list">
-                            <li class="last-news__item">
-                                <div class="news">
+                        <ul class="posts__list">
+                            <li class="posts__item">
+                                <div class="news clearfix">
                                     <div class="news__logo">
                                         <img src="./img/planeflying.jpg" alt="news__img" class="news__img">
                                     </div>
                                     <div class="news__content">
                                         <div class="news__date">12.10.2018</div>
                                         <h5 class="news__title">Ночные перелеты дешевле</h5>
-                                        <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere illo, laudantium aperiam veniam, ut laborum quia! Consequatur magni culpa, nisi, vero id quidem autem.</p>
+                                        <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis blanditiis est dolor quibusdam dolorum ea eveniet maiores sequi vitae ipsa assumenda error temporibus quae cum deserunt perferendis accusantium commodi non, corporis dicta facilis. Dolore praesentium officiis cupiditate aperiam maxime? Excepturi?. mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores.</p>
                                     </div>
                                 </div>
                             </li>
-                            <li class="last-news__item">
-                                <div class="news">
+                            <li class="posts__item">
+                                <div class="news clearfix">
                                     <div class="news__logo">
-                                        <img src="./img/planeflying.jpg" alt="news__img" class="news__img">
+                                        <img src="./img/georgia.jpg" alt="news__img" class="news__img">
                                     </div>
                                     <div class="news__content">
                                         <div class="news__date">12.10.2018</div>
                                         <h5 class="news__title">Ночные перелеты дешевле</h5>
-                                        <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere illo, laudantium aperiam veniam, ut laborum quia! Consequatur magni culpa, nisi, vero id quidem autem.</p>
+                                        <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia beatae sed. Natus dolore non hic perferendis, corporis doloribus! Distinctio praesentium animi quis deserunt quasi impedit provident, laborum rem similique iure minus eius quod optio maiores aliquam, id nulla? Veniam.mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores. </p>
                                     </div>
                                 </div>
                             </li>
-                            <li class="last-news__item">
-                                <div class="news">
+                            <li class="posts__item">
+                                <div class="news clearfix">
                                     <div class="news__logo">
-                                        <img src="./img/planeflying.jpg" alt="news__img" class="news__img">
+                                        <img src="./img/boy.jpg" alt="news__img" class="news__img">
                                     </div>
                                     <div class="news__content">
                                         <div class="news__date">12.10.2018</div>
                                         <h5 class="news__title">Ночные перелеты дешевле</h5>
-                                        <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum facere illo, laudantium aperiam veniam, ut laborum quia! Consequatur magni culpa, nisi, vero id quidem autem.</p>
+                                        <p class="news__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam recusandae magnam assumenda velit tenetur maiores enim iure quasi ab perferendis dicta hic nobis eos adipisci culpa, voluptatum illum, vitae tempore nulla repudiandae mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores. mollitia dolore quibusdam in molestiae reiciendis. Ipsam, maiores.</p>
                                     </div>
                                 </div>
                             </li>
@@ -168,7 +201,7 @@
                             <a href="#" class="pagination__btn pagination__btn_icon_left"></a>
                             <ul class="pagination__list">
                                 <li class="pagination__item">
-                                    <a href="#" class="pagination__link">1</a>
+                                    <a href="#" class="pagination__link pagination__link_active">1</a>
                                 </li>
                                 <li class="pagination__item">
                                     <a href="#" class="pagination__link">2</a>
@@ -201,9 +234,8 @@
         <div class="container clearfix">
             <div class="footer__copyright">
                 <div class="copyright">
-                    Сделано с любовью и старанием на курсе в
-                    <a href="#" class="copyright__link">LoftSchool</a>
-                    Автор работы: <span class="copyright__author">Козырицкий Максим</span>
+                    Сделано с любовью и старанием <br> на курсе "HTML + CSS" в <a href="#" class="copyright__link">LoftSchool</a> <br>
+                    Автор работы: <span class="copyright__author">Козырицкий Максим</span>              
                 </div>
             </div>
             <div class="footer__logo">
@@ -212,7 +244,8 @@
                 </a>
             </div>
             <div class="footer__social">
-                <div class="social-title">Наши социальные сети</div>
+               <div class="social-wrap">
+               	<div class="social-title">Наши социальные сети </div>
                 <div class="social-icons">
                     <ul class="social-icons__list ">
                         <li class="social-icons__item">
@@ -232,6 +265,8 @@
                         </li>
                     </ul>
                 </div>
+               </div>
+                
             </div>
         </div>
     </footer>

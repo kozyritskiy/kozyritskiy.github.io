@@ -1,7 +1,8 @@
 .sidebar {
     float: left;
-    width: 17%;
+    width: 15%;
     padding-top: 32px;
+	margin-right: 2%;
 }
 .navigator__item {
 	margin-bottom: 39px;
@@ -12,6 +13,7 @@
     font-weight: bold;
     color: #4b73b5;
     text-transform: uppercase;
+	display: inline-block;
 }
 .navigator__text {
 	display:inline-block;
