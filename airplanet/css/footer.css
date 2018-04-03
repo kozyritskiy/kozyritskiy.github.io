@@ -62,27 +62,25 @@
 .footer__copyright {
     float: left;
     width: 30%;
-	padding: 14px 0 11px 19px;
-	line-height: 18px;/* Приближение из-за подстановки шрифтов */
+	line-height: 18px;
 	text-align: left;
 }
 .footer__social {
     float: left;
 	width: 30%;
-	padding-top: 15px;
 	text-align: right;
-	padding-right: 20px;
 }
 .footer__logo {
     float: left;
     width: 40%;
-	text-align: center;
-	padding: 20px 0;
+	background: url(../img/logo_footer.png) no-repeat center;
+	height: 50px;
 }
 .footer {
     background-color: #4b73b5;
     font-weight: bold;
-    min-width: 1120px;
+    min-width: 1100px;
+	padding: 14px 0 11px 0;
 }
 .social-title {
 	display: inline-block;

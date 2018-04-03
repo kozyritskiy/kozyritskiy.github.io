@@ -23,9 +23,10 @@
 .navigator__link:before {
     content: "";
     height: 18px;
+	width: 27px;
     display: inline-block;
     vertical-align: middle;
-    padding-left: 57px;
+	margin-right: 15px;
 }
 
 .navigator__link_icon_main:before{

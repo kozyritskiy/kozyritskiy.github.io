@@ -1,0 +1,102 @@
+.partners .partners__title {
+    color: #221f1f;
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.partners__logo {
+    width: 880px;
+    font-size: 0;
+}
+.wrap-logo {
+    width: 290px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 65px;
+}
+.double-wrap {
+    margin: 0 auto;
+}
+.double-wrap_width_one {
+    width: 159px;
+}
+.double-wrap_width_two {
+    width: 161px;
+}
+.double-wrap_width_four {
+    width: 133px;
+}
+.double-wrap_width_six {
+    width: 141px;
+}
+.double-wrap_width_five {
+   width: 46px;
+}
+.double-wrap_width_three {
+   width: 82px;
+}
+.sprite {
+    background-image: url(../img/partners__logo/spritesheet.png);
+    background-repeat: none;
+    display: block;
+}
+.sprite-logo-1 {
+    width: 159px;
+    height: 30px;
+    background-position: -20px -20px;
+}
+.sprite-logo-1:hover {
+    width: 159px;
+    height: 30px;
+    background-position: -20px -90px;
+}
+.sprite-logo-2 {
+    width: 161px;
+    height: 64px;
+    background-position: -20px -160px;
+}
+.sprite-logo-2:hover {
+    width: 161px;
+    height: 64px;
+    background-position: -20px -264px;
+}
+.sprite-logo-3 {
+    width: 82px;
+    height: 64px;
+    background-position: -20px -368px;
+}
+.sprite-logo-3:hover {
+    width: 82px;
+    height: 64px;
+    background-position: -20px -472px;
+}
+.sprite-logo-4 {
+    width: 133px;
+    height: 64px;
+    background-position: -20px -576px;
+}
+.sprite-logo-4:hover {
+    width: 133px;
+    height: 64px;
+    background-position: -20px -680px;
+}
+.sprite-logo-5 {
+    width: 46px;
+    height: 64px;
+    background-position: -20px -784px;
+}
+.sprite-logo-5:hover {
+    width: 46px;
+    height: 64px;
+    background-position: -20px -888px;
+}
+.sprite-logo-6:hover {
+    width: 141px;
+    height: 63px;
+    background-position: -20px -992px;
+}
+.sprite-logo-6 {
+    width: 141px;
+    height: 63px;
+    background-position: -20px -1095px;
+}

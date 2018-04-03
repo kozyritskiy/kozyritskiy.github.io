@@ -1,6 +1,7 @@
 .form {} .form-content {
     width: 560px;
     margin: 0 auto;
+	padding: 50px 0;
 }
 .wrap-form {
     border-radius: 3px;
@@ -112,10 +113,9 @@ input:focus {
     margin-right: 20px;
 }
 .form__submit {
-    padding-bottom: 50px;
 }
 .form-content .title {
-    padding-top: 40px;
+	line-height: 1;
 }
 input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
 input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
