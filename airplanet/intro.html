@@ -13,47 +13,35 @@
     <script src='http://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
     <script src='../airplanet/Keyframes-jQuery.Keyframes-f383a7c/jquery-3.3.1.min.js'></script>
     <script src='../airplanet/Keyframes-jQuery.Keyframes-f383a7c/dist/jquery.keyframes.min.js'></script>
-    <script>
-		$(document).ready(function(){
-						  $("#logo__link").click(function(){
-							event.preventDefault();
-							var supportedFlag = $.keyframe.isSupported();
-								
-								$.keyframe.define({
-								name: 'open-site',
-								from: {
-									'opacity': '1' 
-								},
-								to: {
-									'opacity': '0' 
-								}
-								});
-							  
-								$("#logo").playKeyframe({
-									name: 'open-site', // name of the keyframe you want to bind to the selected element
-									duration: '5s', // [optional, default: 0, in ms] how long you want it to last in milliseconds
-									timingFunction: 'linear', // [optional, default: ease] specifies the speed curve of the animation
-									delay: '0s', //[optional, default: 0s]  how long you want to wait before the animation starts
-									iterationCount: 'infinite', //[optional, default:1]  how many times you want the animation to repeat
-									direction: 'normal', //[optional, default: 'normal']  which direction you want the frames to flow
-									fillMode: 'forwards', //[optional, default: 'forward']  how to apply the styles outside the animation time, default value is forwards
-									complete: function(){} //[optional] Function fired after the animation is complete. If repeat is infinite, the function will be fired every time the animation is restarted.
-								});
-												 
-						  });
-						  
-												 });
-	</script>
+  
 </head>
 
 <body>
     <div class="wrap">
-        <div class="logo" #logo>
-            <a href="#" class="logo__link" #logo__link>
+       <div class="wrap-logo">
+       	 <div class="logo">
+            <a href="https://loftschool.com/" class="logo__link">
                 <button class="logo__btn">перейти на сайт</button>
             </a>
         </div>
+       </div>
+       
     </div>
+      <script>
+		$(document).ready(function(){
+				$( ".logo__link" ).click(function(e) {
+					e.preventDefault();
+					var link = this.href;
+
+					  $( ".wrap-logo" ).animate({
+						opacity: 0
+					  }, 4000, function() {
+						document.location = link;
+					  });
+					});							 
+						  });
+
+	</script>
 </body>
 
 </html>
