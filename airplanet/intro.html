@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/intro.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <script src='http://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <script src='../airplanet/Keyframes-jQuery.Keyframes-f383a7c/dist/jquery.keyframes.min.js'></script>
+    <script>
+		$(document).ready(function(){
+						  $("#logo__link").click(function(event){
+							event.preventDefault();
+							var supportedFlag = $.keyframe.isSupported();
+								
+								$.keyframe.define({
+								name: 'open-site',
+								from: {
+									'opacity': '1' 
+								},
+								to: {
+									'opacity': '0' 
+								}
+								});
+							  
+								$("#logo").playKeyframe({
+									name: 'open-site', // name of the keyframe you want to bind to the selected element
+									duration: '5s', // [optional, default: 0, in ms] how long you want it to last in milliseconds
+									timingFunction: 'linear', // [optional, default: ease] specifies the speed curve of the animation
+									delay: '0s', //[optional, default: 0s]  how long you want to wait before the animation starts
+									iterationCount: 'infinite', //[optional, default:1]  how many times you want the animation to repeat
+									direction: 'normal', //[optional, default: 'normal']  which direction you want the frames to flow
+									fillMode: 'forwards', //[optional, default: 'forward']  how to apply the styles outside the animation time, default value is forwards
+									complete: function(){} //[optional] Function fired after the animation is complete. If repeat is infinite, the function will be fired every time the animation is restarted.
+								});
+												 
+						  });
+						  
+												 });
+	</script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="logo" #logo>
+            <a href="#" class="logo__link" #logo__link>
+                <button class="logo__btn">перейти на сайт</button>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
