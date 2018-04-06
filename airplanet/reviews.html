@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/breadcrumbs.css">
     <link rel="stylesheet" href="./css/reservation.css">
     <link rel="stylesheet" href="./css/feedback.css">
+    <link rel="stylesheet" href="./css/drop-schedule.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 </head>
 <div class="wrapper">
@@ -27,12 +28,22 @@
             <div class="header__right">
                 <div class="phone"> <a href="#" class="phone__link">8(800) 00-392-10</a>
                 </div>
-                <div class="schedule">
-                    <a href="#" class="schedule__link">
-                        <span class="schedule__text">График работы</span>
-                        <span></span>
-                    </a>
-                </div>
+                <div class="schedule-wrap">
+                    	 <div class="schedule">
+                        <a href="#" class="schedule__link">
+                            <span class="schedule__text">График работы</span>
+                        </a>
+                        <div class="dropdown">
+                        <div class="wrap-dd">
+                        	<div class="triangle"></div>
+                        	<ul class="dropdown__list">
+								<li class="dropdown__item dropdown__item_days">пн-вс:09:00-20:00</li>
+								<li class="dropdown__item dropdown__item_dinner">обед: 14:00-14:30</li>
+							</ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
             </div>
         </div>
     </header>

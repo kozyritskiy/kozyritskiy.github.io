@@ -1,10 +1,14 @@
-.wrap {
-	background: url(../img/backg_logo_intro.jpg) no-repeat;
+html{
 	min-height: 100%;
-	min-width: 1100px;
-	background-size: cover;
-	position: relative;
 }
+body{
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	background: url(../img/backg_logo_intro.jpg) fixed top left no-repeat;
+	background-size: 100% 100%;
+}
+
 .logo {
 	height: 270px;
 	width: 207px;
@@ -52,7 +56,7 @@
   53%,
   80%,
   to {
-	opacity: 1;
+	  opacity: 1;
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);

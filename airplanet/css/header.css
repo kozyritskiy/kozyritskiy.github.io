@@ -15,6 +15,7 @@
     font-size: 14px;
     font-weight: 700;
     text-decoration: underline;
+	  transition: 3s;
 }
 .header__left {
     width: 50%;
@@ -30,5 +31,14 @@
     text-align: right;
 }
 .schedule {
+	display: inline-block;
     text-align: right;
+	position: relative;
+}
+.schedule-wrap {
+	text-align: right;
+}
+.schedule:hover .schedule__text {
+	font-weight: 700;
+	color:  #ffffff;
 }
