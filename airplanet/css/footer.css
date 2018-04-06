@@ -82,6 +82,8 @@
     font-weight: bold;
     min-width: 1100px;
 	padding: 14px 0 11px 0;
+	height: 75px;
+	margin-top: -75px;
 }
 .social-title {
 	display: inline-block;
