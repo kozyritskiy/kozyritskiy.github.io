@@ -2,6 +2,13 @@
     float: right;
     width: 83%;
 }
+body{
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	background: url(../../img/backg_logo_intro.jpg) fixed top left no-repeat;
+	background-size: 100% 100%;
+}
 .main-content {
 	padding-bottom: 68px;
 	padding-top: 50px;
@@ -57,17 +64,17 @@
 }
 .rates__item:hover .rate__icons_icon_flower {
     background: url(../../img/flower_hover.png) no-repeat center;
-    background-color: #fff;
+    background-color: transparent;
 	box-shadow: 0 0 20px black;
 }
 .rates__item:hover .rate__icons_icon_star {
     background: url(../../img/star_hover.png) no-repeat center;
-    background-color: #fff;
+    background-color: transparent;
 	box-shadow: 0 0 20px black;
 }
 .rates__item:hover .rate__icons_icon_palette {
     background: url(../../img/palette_hover.png) no-repeat center;
-    background-color: #fff;
+    background-color: transparent;
 	box-shadow: 0 0 20px black;
 }
 .rate {
