@@ -65,13 +65,13 @@
                                 </a>
                             </li>
                             <li class="navigator__item">
-                                <a href="./reviews.html" class="navigator__link ">
+                                <a href="./reviews.html" class="navigator__link navigator__link_fly">
                                    <i class="nav_sprite nav_sprite-feed_icon"></i>
                                     <div class="navigator__text">отзывы</div>
                                 </a>
                             </li>
                             <li class="navigator__item">
-                                <a href="./crew.html" class="navigator__link">
+                                <a href="./crew.html" class="navigator__link navigator__link_fly">
                                    <i class="nav_sprite nav_sprite-team_icon"></i>
                                     <div class="navigator__text">экипаж</div>
                                 </a>
@@ -295,14 +295,29 @@
             </div>
         </div>
     </footer>
-     <script>
+    <!--  <script>
         $(document).ready(function() {
 			$(".banner__plane").hover(
 			  function (){
 			   $(".banner__plane").css({"animationName":"slideOutLeft", "animationDuration":"5s"}) 
 			});
         });
+    </script>	 --> 
+    
+     <script>
+        $(document).ready(function() {
+            $(".navigator__link_fly").click(function(e) {
+                e.preventDefault();
+                var link = this.href;
+                $(".banner__plane").animate({
+                    right: "1500px"
+                }, 2000, function() {
+                    document.location = link;
+                });
+            });
+        });
     </script>
+    
 </body>
 
 </html>
