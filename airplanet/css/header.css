@@ -1,7 +1,6 @@
 .header{
     background-color: #4b73b5;
     font-weight: bold;
-	margin-bottom: 13px;
 	padding: 20px 0;
 	min-width: 1100px;
 }
@@ -20,8 +19,12 @@
 .header__left {
     width: 50%;
     float: left;
-	background: url(../img/logo_footer.png) no-repeat left;
 	height: 40px;
+}
+.logo__img {
+	display: inline-block;
+	padding-top: 6px;
+	
 }
 .header__right {
     width: 50%;

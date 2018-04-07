@@ -74,8 +74,11 @@
 .footer__logo {
     float: left;
     width: 40%;
-	background: url(../img/logo_footer.png) no-repeat center;
 	height: 50px;
+	display: inline-block;
+	text-align: center;
+	
+	
 }
 .footer {
     background-color: #4b73b5;
@@ -84,6 +87,9 @@
 	padding: 14px 0 11px 0;
 	height: 75px;
 	margin-top: -75px;
+}
+.footer_index{
+	
 }
 .social-title {
 	display: inline-block;

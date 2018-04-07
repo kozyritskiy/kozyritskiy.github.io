@@ -5,13 +5,14 @@
 	right: -9999px;
 }
 .dropdown::before{
-	content: "";
-    display: block;
-    height: 29px;
-    width: 164px;
-    position: absolute;
-    top: -29px;
-    right: 9999px;
+	content: '';
+   width: 100%;
+   height: 20px;
+   position: absolute;
+   bottom: 100%;
+   left: 0;
+   display: block;
+   right: 9999px;
 }
 .dropdown__item{
 	margin-bottom: 5px;

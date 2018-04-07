@@ -2,12 +2,29 @@
     float: right;
     width: 83%;
 }
+.main-content {
+	padding-bottom: 68px;
+	padding-top: 50px;
+}
 .banner {
     width: 100%;
     height: 299px;
-    background-image: url(../img/airplane.jpg);
+    background-image: url(../img/bannerbg.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+	position: relative;
+}
+.banner__plane {
+	width: 619px;
+    height: 299px;
+    background-image: url(../img/bplane.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+	position: absolute;
+	right: -13%;
+	top: -13%;
+	animation: slideInRight 3s;
+	animation-fill-mode: forwards;
 }
 .title {
     font-size: 49px;
@@ -16,11 +33,9 @@
     margin-bottom: 27px;
 }
 .rates {
-    width: 900px;
     margin-bottom: 61px;
 }
 .rates__list {
-    width: 810px;
     font-size: 0;
 	margin-left: -20px;
 }
@@ -30,22 +45,30 @@
     margin-left: 20px;
     text-align: center;
     vertical-align: top;
+	 border-radius: 10px;
+	transition: 0.5s;
 }
 .rates__item_border_grey{
     border-radius: 5px;
     border: 1px solid #e8e9ed;
 }
+.rates__item:hover{
+		box-shadow: 0 0 20px black;
+}
 .rates__item:hover .rate__icons_icon_flower {
     background: url(../img/flower_hover.png) no-repeat center;
-    background-color: #4b73b5;
+    background-color: #fff;
+	box-shadow: 0 0 20px black;
 }
 .rates__item:hover .rate__icons_icon_star {
     background: url(../img/star_hover.png) no-repeat center;
-    background-color: #4b73b5;
+    background-color: #fff;
+	box-shadow: 0 0 20px black;
 }
 .rates__item:hover .rate__icons_icon_palette {
     background: url(../img/palette_hover.png) no-repeat center;
-    background-color: #4b73b5;
+    background-color: #fff;
+	box-shadow: 0 0 20px black;
 }
 .rate {
     padding-top: 41px;
@@ -59,6 +82,7 @@
     margin: 0 auto;
     background-position: center;
     margin-bottom: 35px;
+	transition: 0.5s;
 }
 .rate__icons_icon_flower {
     background-image: url(../img/flower.png);
@@ -73,7 +97,7 @@
     background-image: url(../img/painter-palette.png);
 }
 .rate__title {
-    font-size: 11px;
+    font-size: 16px;
     font-weight: bold;
     color: #212121;
     text-align: center;
@@ -167,6 +191,7 @@
 }
 .posts {
 	width: 880px;
+	padding-bottom: 27px;
 }
 .posts__item:last-child .news {
     border-bottom: none;
@@ -187,7 +212,6 @@
 }
 .pagination {
     text-align: center;
-    margin-bottom: 64px;
 }
 .pagination_margin_zero {
     margin-bottom: 0;
@@ -200,7 +224,7 @@
 }
 .pagination__item {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .pagination__btn {
     display: inline-block;
@@ -209,7 +233,7 @@
     display: inline-block;
 }
 .pagination__btn_icon_left {
-    margin-right: 25px;
+    margin-right: 15px;
 }
 .pagination__btn_icon_right {
     margin-left: 5px;
@@ -217,7 +241,7 @@
 .pagination__link {
     display: inline-block;
     border-radius: 3px;
-  	padding: 12px 14px;
+  	padding: 7px 10px;
     vertical-align: middle;
 }
 .pagination__link_active {
@@ -236,7 +260,7 @@
 .posts .title_comments {
     margin-bottom: 50px;
 }
-.container-reservation {
+.reservation__content {
     width: 620px;
     margin: 0 auto;
     color: #ffffff;
@@ -247,6 +271,7 @@
 }
 .main-content_comments {
     margin-bottom: 72px;
+	padding-top: 50px;
 }
 .main-content_partners {
     margin-bottom: 35px;
@@ -262,3 +287,50 @@
     font-size: 18px;
     font-weight: bold;
 }
+.team .title{
+	line-height: 0.8;
+}
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(150%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideOutLeft {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(-500%, 0, 0);
+    transform: translate3d(-500%, 0, 0);
+  }
+}
+
+
+
+
+
+
+

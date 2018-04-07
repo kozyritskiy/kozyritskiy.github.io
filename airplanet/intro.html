@@ -8,37 +8,49 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/intro.css">
-    <title>Document</title>
+    <title>Airplanet-intro</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <script src='./js/jquery-3.3.1.min.js'></script>
-  
+
 </head>
 
 <body>
-   
-   
-       <div class="wrap-logo">
-       	 <div class="logo">
-            <a href="https://loftschool.com/" class="logo__link">
-                <button class="logo__btn">перейти на сайт</button>
-            </a>
+
+    <div class="double-wrap">
+        <div class="wrap-logo">
+            <div class="logo">
+                <div class="wrap">
+                    <img src="./img/logo_intro.png" alt="logo_img" class="logo__img">
+                </div>
+                <a href="./airplanet/index.html" class="logo__link">
+                    <button class="logo__btn">перейти на сайт
+                        <i class="intro_sprite intro_sprite-plan"></i>
+                    </button>
+                </a>
+            </div>
         </div>
-      
-       
     </div>
-      <script>
-		$(document).ready(function(){
-				$( ".logo__link" ).click(function(e) {
-					e.preventDefault();
-					var link = this.href;
-					  $( ".wrap-logo" ).animate({
-						opacity: 0
-					  }, 2000, function() {
-						document.location = link;
-					  });
-					});							 
-						  });
-	</script>
+
+
+
+    <script>
+        $(document).ready(function() {
+            $(".logo__link").click(function(e) {
+                e.preventDefault();
+                var link = this.href;
+                $(".logo").animate({
+                    opacity: 0
+                }, 2000, function() {
+                    document.location = link;
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

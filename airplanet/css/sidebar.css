@@ -1,13 +1,14 @@
 .sidebar {
     float: left;
     width: 15%;
-    padding-top: 32px;
 	margin-right: 2%;
+}
+.sidebar_comment_padding, .sidebar_crew_padding{
+	padding-top: 1px;
 }
 .navigator__item {
 	margin-bottom: 39px;
 }
-
 .navigator__link {
     font-size: 12px;
     font-weight: bold;

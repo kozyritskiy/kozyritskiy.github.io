@@ -8,27 +8,35 @@ body{
 	background: url(../img/backg_logo_intro.jpg) fixed top left no-repeat;
 	background-size: 100% 100%;
 }
-
-.logo {
-	height: 270px;
+.double-wrap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.wrap-logo {
 	width: 207px;
+	height: 270px;
 	position: absolute;
-	left: 0;
-	right: 0;
 	top: 0;
 	bottom: 0;
+	right: 0;
+	left: 0;
 	margin: auto;
-	background: url(../img/logo_intro.png) no-repeat;
-	background-position: top center;
 	animation: bounce 1s;
 	animation-fill-mode: forwards;
-	animation-delay: 1s;
+	animation-delay: 0.5s;
 	opacity: 0;
 }
+.logo__img {
+	display: block;
+	padding-bottom: 40px;
+	width: 111px;
+	margin: 0 auto;
+}
 .logo__btn {
+	display: inline-block;
 	width: 207px;
 	height: 45px;
-	margin-top: 225px;
 	text-transform: uppercase;
 	color:  #1b5bc4;
 	font-size: 12px;
@@ -39,17 +47,37 @@ body{
 	border-color:  #1c5bc3;
 	border-style: solid;
 	cursor: pointer;
+	transition: 0.5s;
 }
-.logo__btn::after{
-	content: "";
-	background: url(../img/blue_plan.png) no-repeat;
-	display: inline-block;
-	vertical-align: middle;
-	width: 15px;
-	height: 17px;
+.logo__btn:hover{
+	background-color: #1c5bc3;
+	color: #fff;
+}
+.intro_sprite {
+    background-image: url(../img/intro/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
 	margin-left: 10px;
+	vertical-align: middle;
+	padding-top: 17px;
+	transition: 1s;
+	
 }
 
+.logo__btn:hover .intro_sprite-plan{
+    width: 15px;
+    height: 14px;
+    background-position: -20px -20px;
+}
+.intro_sprite-plan {
+    width: 15px;
+    height: 14px;
+    background-position: -75px -20px;
+}
+
+.logo__link {
+	display: inline-block;
+}
 @keyframes bounce {
   from,
   20%,
