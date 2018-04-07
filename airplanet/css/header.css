@@ -14,7 +14,7 @@
     font-size: 14px;
     font-weight: 700;
     text-decoration: underline;
-	  transition: 3s;
+	transition: 0.4s;
 }
 .header__left {
     width: 50%;
@@ -24,7 +24,6 @@
 .logo__img {
 	display: inline-block;
 	padding-top: 6px;
-	
 }
 .header__right {
     width: 50%;

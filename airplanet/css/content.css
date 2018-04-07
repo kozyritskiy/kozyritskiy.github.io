@@ -199,9 +199,10 @@
 .posts__item {
     margin-bottom: 30px;
 }
-.posts__list .news .news__logo {
+.posts__list .news .news__logo{
     float: left;
     margin-right: 20px;
+	
 }
 .news__content {
     width: 700px;
@@ -290,44 +291,6 @@
 .team .title{
 	line-height: 0.8;
 }
-@-webkit-keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(150%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-@keyframes slideOutLeft {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(-500%, 0, 0);
-    transform: translate3d(-500%, 0, 0);
-  }
-}
-
 
 
 
