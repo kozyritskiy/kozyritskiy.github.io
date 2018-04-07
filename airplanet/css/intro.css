@@ -22,10 +22,6 @@ body{
 	right: 0;
 	left: 0;
 	margin: auto;
-	animation: bounce 1s;
-	animation-fill-mode: forwards;
-	animation-delay: 0.5s;
-	opacity: 0;
 }
 .logo__img {
 	display: block;
@@ -50,7 +46,7 @@ body{
 	transition: 0.5s;
 }
 .logo__btn:hover{
-	background-color: #1c5bc3;
+	background-color: #37b1f7;
 	color: #fff;
 }
 .intro_sprite {

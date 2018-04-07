@@ -28,6 +28,13 @@
 	position: relative;
 	margin: 0 auto;
 	margin-bottom: 20px;
+	transition: 0.4s;
+}
+.team__item:hover .team__icon{
+	background-color: transparent;
+}
+.team__item:hover .team__name{
+	font-size: 0;
 }
 .team__name {
 	line-height: 160px;
@@ -42,6 +49,7 @@
 	font-size: 24px;
 	font-weight: 700;
 	z-index:2;
+	transition: 0.4s;
 }
 .team__img {
 	width: 160px;

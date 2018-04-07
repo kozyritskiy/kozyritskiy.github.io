@@ -30,6 +30,7 @@
     background-color: #d2def3;
     display: inline-block;
 	margin-right: 10px;
+	transition: 0.4s;
 }
 .social-icons__link {
     background-repeat: no-repeat;

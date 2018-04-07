@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/reservation.css">
     <link rel="stylesheet" href="./css/feedback.css">
     <link rel="stylesheet" href="./css/drop-schedule.css">
+    <link rel="stylesheet" href="./css/animate.css-master/animate.css">
     
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -22,6 +23,9 @@
     <link rel="manifest" href="./favicon/site.webmanifest">
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    
+    <script src='./js/WOW-master/dist/wow.min.js'></script>
+    <script> new WOW().init();</script>
 </head>
 <div class="wrapper">
     <header class="header">
@@ -34,9 +38,11 @@
             <div class="header__right">
                 <div class="phone"> <a href="#" class="phone__link">8(800) 00-392-10</a>
                 </div>
-                <div class="schedule-wrap">
+                  <div class="schedule-wrap">
                     	 <div class="schedule">
+                        <a href="#" class="schedule__link">
                             <span class="schedule__text">График работы</span>
+                        </a>
                         <div class="dropdown">
                         <div class="wrap-dd">
                         	<div class="triangle"></div>
@@ -51,24 +57,27 @@
             </div>
         </div>
     </header>
-    <main class="main-content main-content_comments">
+    <main class="main-content">
         <div class="container clearfix">
             <aside class="sidebar sidebar_comment_padding">
                 <nav class="navigator">
                     <ul class="navigator__list">
                         <li class="navigator__item">
-                            <a href="#" class="navigator__link navigator__link_active navigator__link_icon_main
+                            <a href="#" class="navigator__link 
                                 ">
+                                <i class="nav_sprite nav_sprite-main_icon"></i>
                                 <div class="navigator__text ">Главная</div>
                             </a>
                         </li>
                         <li class="navigator__item">
-                            <a href="#" class="navigator__link navigator__link_icon_feed">
+                            <a href="#" class="navigator__link navigator__link_active ">
+                               <i class="nav_sprite nav_sprite-feed_hover"></i>
                                 <div class="navigator__text">отзывы</div>
                             </a>
                         </li>
                         <li class="navigator__item">
                             <a href="#" class="navigator__link navigator__link_icon_team">
+                               <i class="nav_sprite nav_sprite-team_icon"></i>
                                 <div class="navigator__text">экипаж</div>
                             </a>
                         </li>
@@ -92,7 +101,7 @@
                         <li class="posts__item">
                             <div class="news clearfix">
                                 <div class="news__logo">
-                                    <img src="./img/riview_icon.png" alt="news__img" class="news__img">
+                                    <img src="./img/riview_icon.png" alt="news__img" class="news__img zoomIn wow">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
@@ -104,7 +113,7 @@
                         <li class="posts__item">
                             <div class="news clearfix">
                                 <div class="news__logo">
-                                    <img src="./img/riview_icon.png" alt="news__img" class="news__img">
+                                    <img src="./img/riview_icon.png" alt="news__img" class="news__img zoomIn wow" data-wow-delay="0.1s">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
@@ -116,7 +125,7 @@
                         <li class="posts__item">
                             <div class="news clearfix">
                                 <div class="news__logo">
-                                    <img src="./img/riview_icon.png" alt="news__img" class="news__img">
+                                    <img src="./img/riview_icon.png" alt="news__img" class="news__img zoomIn wow" data-wow-delay="0.2s">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
@@ -128,7 +137,7 @@
                         <li class="posts__item">
                             <div class="news clearfix">
                                 <div class="news__logo">
-                                    <img src="./img/riview_icon.png" alt="news__img" class="news__img">
+                                    <img src="./img/riview_icon.png" alt="news__img"  class="news__img zoomIn wow" data-wow-delay="0.1s">
                                 </div>
                                 <div class="news__content">
                                     <div class="news__date">12.10.2018</div>
@@ -250,23 +259,25 @@
                 <div class="social-title">Наши социальные сети</div>
                 <div class="social-icons">
                     <ul class="social-icons__list ">
-                        <li class="social-icons__item">
+                        <li class="social-icons__item bounceInDown wow">
                             <a href="#" class="social-icons__link social-icons__link_icon_vk"></a>
                         </li>
-                        <li class="social-icons__item">
+                        <li class="social-icons__item bounceInDown wow" data-wow-delay="0.2s" >
                             <a href="#" class="social-icons__link social-icons__link_icon_fb"></a>
                         </li>
-                        <li class="social-icons__item">
+                        <li class="social-icons__item bounceInDown wow" data-wow-delay="0.4s" >
                             <a href="#" class="social-icons__link social-icons__link_icon_gplus"></a>
                         </li>
-                        <li class="social-icons__item">
+                        <li class="social-icons__item bounceInDown wow"data-wow-delay="0.6s" >
                             <a href="#" class="social-icons__link social-icons__link_icon_tw"></a>
                         </li>
-                        <li class="social-icons__item">
+                        <li class="social-icons__item bounceInDown wow" data-wow-delay="0.8s" >
                             <a href="#" class="social-icons__link social-icons__link_icon_mail"></a>
                         </li>
                     </ul>
                 </div>
+               </div>
+            </div>
             </div>
         </div>
     </div>
