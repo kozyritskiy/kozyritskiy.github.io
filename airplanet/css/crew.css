@@ -5,7 +5,9 @@
 
 
 @import url("./blocks/header.css");
+@import url("./blocks/partners.css");
 @import url("./blocks/drop-schedule.css");
+@import url("./blocks/team.css");
 @import url("./blocks/breadcrumbs.css");
 @import url("./blocks/sidebar.css");
 @import url("./blocks/content.css");

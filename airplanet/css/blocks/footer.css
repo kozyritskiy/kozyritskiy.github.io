@@ -40,22 +40,22 @@
     display: inline-block;
 }
 .social-icons__link_icon_vk {
-    background-image: url(../img/vk.png);
+    background-image: url(../../img/vk.png);
 }
 .social-icons__link_icon_fb {
-    background-image: url(../img/fb.png);
+    background-image: url(../../img/fb.png);
 }
 .social-icons__link_icon_gplus {
-    background-image: url(../img/google.png);
+    background-image: url(../../img/google.png);
 }
 .social-icons__link_icon_gplus {
-    background-image: url(../img/google.png);
+    background-image: url(../../img/google.png);
 }
 .social-icons__link_icon_tw {
-    background-image: url(../img/twitter.png);
+    background-image: url(../../img/twitter.png);
 }
 .social-icons__link_icon_mail {
-    background-image: url(../img/mail.png);
+    background-image: url(../../img/mail.png);
 }
 .social-icons__item:hover {
     background-color: #fff;

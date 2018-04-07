@@ -5,8 +5,11 @@
 
 
 @import url("./blocks/header.css");
+@import url("./blocks/reservation.css");
 @import url("./blocks/drop-schedule.css");
+
 @import url("./blocks/breadcrumbs.css");
 @import url("./blocks/sidebar.css");
 @import url("./blocks/content.css");
+@import url("./blocks/feedback.css");
 @import url("./blocks/footer.css");

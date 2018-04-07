@@ -9,7 +9,7 @@
 .banner {
     width: 100%;
     height: 299px;
-    background-image: url(../img/bannerbg.jpg);
+    background-image: url(../../img/bannerbg.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 	position: relative;
@@ -17,7 +17,7 @@
 .banner__plane {
 	width: 619px;
     height: 299px;
-    background-image: url(../img/bplane.png);
+    background-image: url(../../img/bplane.png);
     background-repeat: no-repeat;
     background-size: contain;
 	position: absolute;
@@ -56,17 +56,17 @@
 		box-shadow: 0 0 20px black;
 }
 .rates__item:hover .rate__icons_icon_flower {
-    background: url(../img/flower_hover.png) no-repeat center;
+    background: url(../../img/flower_hover.png) no-repeat center;
     background-color: #fff;
 	box-shadow: 0 0 20px black;
 }
 .rates__item:hover .rate__icons_icon_star {
-    background: url(../img/star_hover.png) no-repeat center;
+    background: url(../../img/star_hover.png) no-repeat center;
     background-color: #fff;
 	box-shadow: 0 0 20px black;
 }
 .rates__item:hover .rate__icons_icon_palette {
-    background: url(../img/palette_hover.png) no-repeat center;
+    background: url(../../img/palette_hover.png) no-repeat center;
     background-color: #fff;
 	box-shadow: 0 0 20px black;
 }
@@ -85,16 +85,16 @@
 	transition: 0.5s;
 }
 .rate__icons_icon_flower {
-    background-image: url(../img/flower.png);
+    background-image: url(../../img/flower.png);
 }
 .rate__icons_icon_flower-hover:hover {
-    background-image: url(../img/flower_hover.png);
+    background-image: url(../../img/flower_hover.png);
 }
 .rate__icons_icon_star {
-    background-image: url(../img/star.png);
+    background-image: url(../../img/star.png);
 }
 .rate__icons_icon_palette {
-    background-image: url(../img/painter-palette.png);
+    background-image: url(../../img/painter-palette.png);
 }
 .rate__title {
     font-size: 16px;
@@ -149,10 +149,10 @@
     height: 10px;
 }
 .pagination__btn_icon_right {
-    background-image: url(../img/right-arrow.png);
+    background-image: url(../../img/right-arrow.png);
 }
 .pagination__btn_icon_left {
-    background-image: url(../img/left-arrow.png);
+    background-image: url(../../img/left-arrow.png);
 }
 .rate__description {
     width: 185px;

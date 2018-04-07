@@ -36,7 +36,7 @@
    width: 82px;
 }
 .sprite {
-    background-image: url(../img/partners__logo/spritesheet.png);
+    background-image: url(../../img/partners__logo/spritesheet.png);
     background-repeat: none;
     display: block;
 }
