@@ -1,0 +1,15 @@
+.contacts {
+	width: 15%;
+}
+.contact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.contact__item {
+	color:  #a3afb2;
+	font-size: 13px;
+}
+.contacts__item {
+	margin-bottom: 5px;
+}

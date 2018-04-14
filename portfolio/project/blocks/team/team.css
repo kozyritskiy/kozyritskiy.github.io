@@ -1,0 +1,12 @@
+.team {
+	background-color: rgb(244, 244, 244);
+	min-width: 950px;
+	padding: 50px 0 50px 0;
+}
+.container_team{
+	width: 850px;
+}
+.title_team_size{
+	font-size: 50px;
+	margin-bottom: 40px;
+}

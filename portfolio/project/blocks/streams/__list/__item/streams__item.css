@@ -1,0 +1,28 @@
+.streams__item {
+	padding: 32px 0 25px 0;
+	width: 25%;
+	border-right: 2px solid #a5a5a5;
+}
+.stream__item_border_left{
+	border-left: 2px solid #a5a5a5;
+}
+.stream__icon {
+	margin-bottom: 25px;
+	height: 92px;
+	position: relative;
+}
+.stream__img {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.title_size_20{
+	margin-bottom: 18px;
+	font-size: 20px;
+}
+.stream__description {
+	text-align: center;
+}

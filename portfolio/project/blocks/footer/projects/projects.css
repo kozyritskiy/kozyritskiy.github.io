@@ -1,0 +1,7 @@
+.projects {
+	width: 20%;
+}
+.project {
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.header__right {
+	width: 20%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.search {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.search__name {
+	padding-right: 7px;
+}
+.search__icon {
+	background: url('../../../../img/header/__right/magnifier.png') no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	background-color:  #f98561;
+	width: 36px;
+	height: 36px;
+}

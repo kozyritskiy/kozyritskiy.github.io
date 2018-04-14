@@ -1,0 +1,16 @@
+.banner {
+	background: url('../../../img/banner/banner.jpg') no-repeat;
+	background-size: cover;
+	min-width: 950px;
+	padding: 124px 0 113px 0;
+}
+.banner__title {
+	color:  #cccece;
+	font-size: 80px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 0.8;
+	font-family: 'Indie Flower', cursive;
+	
+}

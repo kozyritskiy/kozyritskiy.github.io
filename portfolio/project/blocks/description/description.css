@@ -1,0 +1,30 @@
+.description {
+	background-color: rgb(244, 244, 244);
+	padding: 34px 0 44px 0;
+	min-width: 950px;
+}
+.title_size_50{
+	font-size: 50px;
+	margin-bottom: 27px;
+}
+.description__article{
+	text-align: center;
+	color:  #515862;
+	font-size: 13px;
+}
+.description__article_first {
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.description__article_second {
+	font-weight: 400;
+	margin-bottom: 37px;
+}
+.main-title {
+	color:  #515862;
+	font-size: 69.5px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 72.331px;
+}

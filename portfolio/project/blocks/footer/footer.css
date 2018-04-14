@@ -1,0 +1,36 @@
+.footer {
+	padding: 44px 0 34px 0;
+	background-color:  #2e3e4f;
+	min-width: 950px;
+}
+.title_footer{
+	color:  #f98561;
+	font-size: 20px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.container_footer{
+	display: flex;
+	justify-content: space-between;
+}
+.tw-feeds__descrition,.tw-feeds__added,.news__description,.project__name,.project__added 
+ {
+	color:  #a3afb2;
+	font-size: 12px;
+	text-align: left;
+}
+.projects__item,.tw-feeds__item,.contacts__item{
+	padding: 10px 0;
+}
+.news__item{
+	padding: 10px 0 9px 0;
+}
+.news__description {
+	line-height: 1.57;
+}
+.item_border_bottom{
+	border-bottom: 1px solid #a3afb2;
+}
+.tw-feeds__descrition,.tw-feeds__site,.project__name,.project__site {
+	margin-bottom: 5px;
+}

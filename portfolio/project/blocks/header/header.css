@@ -1,0 +1,11 @@
+.header {
+	background-color: rgb(244, 244, 244);
+	padding: 35px 0 27px 0;
+	min-width: 950px;
+}
+.container_header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}

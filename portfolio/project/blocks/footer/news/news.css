@@ -1,0 +1,31 @@
+.news {
+	width: 30%;
+}
+.label-email{
+	color:  #2190c1;
+	font-size: 13px;
+	font-weight: 400;
+}
+.news__description {
+	padding-bottom: 2px;
+}
+.inpur-email {
+	width: 100%;
+	height: 28px;
+	margin-top: 10px;
+}
+.form {
+	padding: 8px 0;
+	margin-bottom: 5px;
+}
+.btn {
+	background-color:  #2190c1;
+	border: none;
+	padding: 8px 16px 7px 15px;
+	color:  #ffffff;
+	font-size: 13px;
+}
+.news__btn {
+	display: flex;
+	justify-content: flex-end;
+}

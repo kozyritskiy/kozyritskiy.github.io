@@ -1,0 +1,17 @@
+.header__left {
+	width: 30%;
+}
+.logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.logo__img {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-right: 7px;
+}
+.logo__circle {
+	padding-right: 2px;
+}

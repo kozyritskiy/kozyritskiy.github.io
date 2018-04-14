@@ -1,0 +1,28 @@
+@import url("./layout/normalize.css");
+@import url("./layout/base.css");
+
+@import url("./blocks/header/header.css");
+@import url("./blocks/header/__left/header__left.css");
+@import url("./blocks/header/__centr/header__centr.css");
+@import url("./blocks/header/__right/header__right.css");
+
+@import url("./blocks/banner/banner.css");
+
+@import url("./blocks/description/description.css");
+
+@import url("./blocks/streams/streams.css");
+@import url("./blocks/streams/__list/streams__list.css");
+@import url("./blocks/streams/__list/__item/streams__item.css");
+@import url("./blocks/streams/__list/__item/stream/stream.css");
+
+@import url("./blocks/team/team.css");
+@import url("./blocks/team/__list/team__list.css");
+@import url("./blocks/team/__list/__item/team__item.css");
+@import url("./blocks/team/__list/__item/worker/worker.css");
+
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/footer/contacts/contacts.css");
+@import url("./blocks/footer/feeds/feeds.css");
+@import url("./blocks/footer/news/news.css");
+@import url("./blocks/footer/projects/projects.css");
+
