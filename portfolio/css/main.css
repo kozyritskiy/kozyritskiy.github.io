@@ -2,9 +2,9 @@
 @import url("./layout/base.css");
 
 @import url("./blocks/header/header.css");
-@import url("./blocks/header/__left/header__left.css");
-@import url("./blocks/header/__centr/header__centr.css");
-@import url("./blocks/header/__right/header__right.css");
+@import url("./blocks/header/left/headerleft.css");
+@import url("./blocks/header/centr/headercentr.css");
+@import url("./blocks/header/right/headerright.css");
 
 @import url("./blocks/banner/banner.css");
 
