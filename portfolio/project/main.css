@@ -6,19 +6,19 @@
 @import url('blocks/header/centr/header--centr.css');
 @import url("blocks/header/right/header--right.css");
 
-@import url("./blocks/banner/banner.css");
+@import url("blocks/fone/fone.css");
 
 @import url('./blocks/description/description.css');
 
 @import url("./blocks/streams/streams.css");
-@import url("./blocks/streams/__list/streams__list.css");
-@import url("./blocks/streams/__list/__item/streams__item.css");
-@import url("./blocks/streams/__list/__item/stream/stream.css");
+@import url("blocks/streams/list/streams--list.css");
+@import url("blocks/streams/list/item/streams--item.css");
+@import url("blocks/streams/list/item/stream/stream.css");
 
 @import url("./blocks/team/team.css");
-@import url("./blocks/team/__list/team__list.css");
-@import url("./blocks/team/__list/__item/team__item.css");
-@import url("./blocks/team/__list/__item/worker/worker.css");
+@import url("blocks/team/list/team--list.css");
+@import url("blocks/team/list/item/team--item.css");
+@import url("./blocks/team/list/item/worker/worker.css");
 
 @import url("./blocks/footer/footer.css");
 @import url("./blocks/footer/contacts/contacts.css");
