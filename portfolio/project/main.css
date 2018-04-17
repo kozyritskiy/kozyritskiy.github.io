@@ -2,13 +2,13 @@
 @import url("./layout/base.css");
 
 @import url("./blocks/header/header.css");
-@import url("./blocks/header/left/headerleft.css");
-@import url("./blocks/header/centr/headercentr.css");
-@import url("./blocks/header/right/headerright.css");
+@import url("blocks/header/left/header--left.css");
+@import url('blocks/header/centr/header--centr.css');
+@import url("blocks/header/right/header--right.css");
 
 @import url("./blocks/banner/banner.css");
 
-@import url("./blocks/description/description.css");
+@import url('./blocks/description/description.css');
 
 @import url("./blocks/streams/streams.css");
 @import url("./blocks/streams/__list/streams__list.css");
